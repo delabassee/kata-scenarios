@@ -9,7 +9,7 @@ Java 15 comes with a bunch a features. We will introduce [Text Blocks](https://o
 ## Exerice - Add Text Block support
 
 
-Adjust the exsiting code to display the new message that uses text block.
+The following snippet is a text block... blabla...
 
 ```
 var msg = """
@@ -27,6 +27,10 @@ var msg = """
    """;
 ```
 
-:warning: When running your application, you might get an error that says that you are trying to use a preview feature... blabla old OpenJDK 15 version... Text Block are standard in Java 15... blabla
+Adjust the exsiting code to display the new message that uses text block.
 
-To woraround the issue, type `java  --enable preview  --source 15 Test.java`{{execute}}
+
+
+⚠️ When running your application, you might get an error that says that you are trying to use a preview feature... Text Block are standard in Java 15... but old OpenJDK 15 version...blabla anyway...
+
+To work-around the issue, simply type `java  --enable-preview  --source 15 Test.java`{{execute}}
