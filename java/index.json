@@ -1,17 +1,17 @@
 {
-  "title": "Baby tutorial",
-  "description": "",
+  "title": "Baby Tutorial",
+  "description": "Not much to learn here!",
   "difficulty": "Beginner",
-  "time": "5",
+  "time": "4",
+  "files": [ "Test.java" ],
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "1 - HelloWorld",
         "text": "step1.md",
-        "files": [ "Test.java" ]
       },
       {
-        "title": "Step 2",
+        "title": "2 - Java 15 support",
         "text": "step2.md"
       }
     ],
