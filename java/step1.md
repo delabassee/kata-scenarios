@@ -6,6 +6,17 @@ Just type the following command `java -version`{{execute}}
 
 ## Create a simple class
 
+
+
+<pre class="file" data-filename="app.js" data-target="replace">class Test {
+	public static void main (String ... args) {
+		System.out.println("Hello World");
+	}
+}
+</pre>
+
+
+
 ```
 class Test {
 	public static void main (String ... args) {
