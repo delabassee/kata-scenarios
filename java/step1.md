@@ -1,12 +1,13 @@
 
-
+<br/>
 ## Check that Java is installed
-Just type the following command `java -version`{{execute}}
+You first want to check that Java is correctly installed. The following command `java -version`{{execute}} should return of the version of Java installed.
 
 
-## Create a simple class
+## Create a HelloWorld application
 
 
+Next we will create a simple HelloWorld. 
 Create the following `Test.java` class in the editor.
 
 
@@ -19,10 +20,13 @@ Create the following `Test.java` class in the editor.
 
 
 
-## Compile and run the class
+## Compile and run HelloWorld
 
-Java 11 introduced support for ... where you can simply invoke `java` to compile and run a given class.
+To run a Java application, you first need to compile the source code using `javac`. You can then invoke that application using `java`.
+
+<br>
+
+Java 11 introduced support for [Launch Single-File Source-Code Programs](https://openjdk.java.net/jeps/330) where you can simply invoke `java` to compile and run a given class in a single step.
 
 Invoke `java Test.java`{{execute}}
-
 
